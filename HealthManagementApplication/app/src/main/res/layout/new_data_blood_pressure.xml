@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="高压"
+        android:gravity="left"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_gravity="left|bottom"
+        android:textSize="14sp"
+        android:hint="请输入收缩压"
+        android:layout_weight="1"
+        android:id="@+id/new_systolic_pressure_data"
+        android:inputType="number"
+        android:maxLength="3"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="mmHg"
+        android:gravity="right"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="14sp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="低压"
+        android:gravity="left"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_gravity="left|bottom"
+        android:textSize="14sp"
+        android:hint="请输入舒张压"
+        android:layout_weight="1"
+        android:id="@+id/new_diastolic_pressure_data"
+        android:inputType="number"
+        android:maxLength="3"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="mmHg"
+        android:gravity="right"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="14sp"/>
+
+</LinearLayout>
+
+</LinearLayout>

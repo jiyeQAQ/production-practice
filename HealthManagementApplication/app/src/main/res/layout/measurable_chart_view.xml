@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/measurable_chart_LineChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </com.github.mikephil.charting.charts.LineChart>
+        <!--<ImageView-->
+            <!--android:id="@+id/measurable_char_imageView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:weightSum="1"
+        >
+
+        <Button
+            android:id="@+id/measurable_chart_day"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="日"/>
+        <Button
+            android:id="@+id/measurable_chart_week"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="周"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/measurable_chart_month"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="月"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/measurable_chart_year"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="年"/>
+
+    </LinearLayout>
+
+</LinearLayout>

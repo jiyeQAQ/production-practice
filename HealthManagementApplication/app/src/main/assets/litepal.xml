@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="1">
+
+    </dbname>
+    <list>
+
+        <mapping class="com.example.a56520.healthmanagementapplication.db.BloodGlucose"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.HeartRate"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.BloodOxygen"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.BodyHeight"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.BodyTemperature"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.BodyWeight"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.BloodPressure"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.ContactInformation"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.Diet"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.Discomfort"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.GuardianShip"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.MedicalHistory"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.PicDetail"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.Tags"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.TakeMedicine"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.ToolDetail"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.User"/>
+        <mapping class="com.example.a56520.healthmanagementapplication.db.UserAccount"/>
+
+    </list>
+</litepal>

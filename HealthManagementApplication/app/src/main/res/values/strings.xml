@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HealthManagementApplication</string>
+    <string name="title_activity_new_discomfort">NewDiscomfortActivity</string>
+</resources>
